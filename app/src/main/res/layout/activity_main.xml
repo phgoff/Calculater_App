@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
+
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/activity_main"
@@ -11,6 +12,7 @@
         android:paddingTop="1dp"
         tools:context="com.phirathat.Calculater_App.MainActivity">
 
+
         <TextView
             android:id="@+id/tv1"
             android:layout_width="match_parent"
@@ -19,8 +21,9 @@
             android:gravity="center"
             android:text="@string/calculator"
             android:textColor="#418bf4"
-            android:textSize="30sp"
-           />
+            android:textSize="40sp"
+            android:fontFamily="serif-monospace"
+            />
 
         <EditText
             android:id="@+id/editText"
@@ -54,6 +57,7 @@
             android:textSize="20sp"
             android:background="#70f9f0"/>
 
+
         <Button
             android:id="@+id/btn9"
             android:layout_width="wrap_content"
@@ -75,6 +79,7 @@
             android:textSize="20sp"
             android:background="#75f9bc" />
 
+
         <Button
             android:id="@+id/btn5"
             android:layout_width="wrap_content"
@@ -87,7 +92,6 @@
 
         <Button
             android:id="@+id/btn6"
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignRight="@id/btn9"
@@ -158,6 +162,7 @@
             android:textSize="20sp"
             android:background="#f9867e"/>
 
+
         <Button
             android:id="@+id/btnAdd"
             style="@style/Widget.AppCompat.Button.Borderless"
@@ -168,6 +173,7 @@
             android:text="+"
             android:textSize="20sp"
             android:background="#00cbff" />
+
 
         <Button
             android:id="@+id/btnSub"
@@ -193,7 +199,6 @@
 
         <Button
             android:id="@+id/btnDivide"
-            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignTop="@id/btnclear"
@@ -209,8 +214,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/btn0"
             android:text="@string/answer"
-            android:background="#41d0f4"
-            android:textSize="20sp" />
+            android:background="#00cbff"
+            />
+
 
         <TextView
             android:id="@+id/tvans"
@@ -223,5 +229,6 @@
             android:hint="@string/result"
             android:textColor="#ed4455"
             android:textSize="30sp" />
+
     </RelativeLayout>
 </layout>
