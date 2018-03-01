@@ -23,6 +23,7 @@
             android:textColor="#418bf4"
             android:textSize="40sp"
             android:fontFamily="serif-monospace"
+            android:layout_marginTop="5dp"
             />
 
         <EditText
@@ -216,7 +217,6 @@
             android:text="@string/answer"
             android:background="#00cbff"
             />
-
 
         <TextView
             android:id="@+id/tvans"
