@@ -29,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        decimalFormat = new DecimalFormat("#.##########");
+        decimalFormat = new DecimalFormat("#.####");
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
-        binding.buttonDot.setOnClickListener(new View.OnClickListener() {
+        binding.btndot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 binding.editText.setText(binding.editText.getText() + ".");

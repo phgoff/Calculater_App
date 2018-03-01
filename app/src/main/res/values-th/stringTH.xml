@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">เครื่องคิดเลข</string>
+    <string name="answer">ผลลัพธ์</string>
+    <string name="result">ผลลัพธ์ที่ได้</string>
+    <string name="please_enter_number">กรุณาใส่ตัวเลข</string>
+    <string name="calculator">เครื่องคิดเลข</string>
+</resources>
